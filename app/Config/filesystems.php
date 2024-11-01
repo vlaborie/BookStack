@@ -53,6 +53,7 @@ return [
             'driver'                  => 's3',
             'key'                     => env('STORAGE_S3_KEY', 'your-key'),
             'secret'                  => env('STORAGE_S3_SECRET', 'your-secret'),
+            'token'                   => env('STORAGE_S3_TOKEN', null),
             'region'                  => env('STORAGE_S3_REGION', 'your-region'),
             'bucket'                  => env('STORAGE_S3_BUCKET', 'your-bucket'),
             'endpoint'                => env('STORAGE_S3_ENDPOINT', null),
